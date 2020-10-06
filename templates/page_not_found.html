@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block title %} Error page {% endblock %} {% block
+body %}
+<h2>
+  404 <br />
+  Page not found!
+</h2>
+<h3>This is an invalid action.</h3>
+<p><a href="{{ url_for('home') }}">click here</a>to go back to the home page</p>
+{% endblock %}
